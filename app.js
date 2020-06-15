@@ -440,28 +440,54 @@
         // }
 
 
-// chapter 9-11 task 9
+// chapter 9-11 task 10
 
 // var t=Number(prompt("Enter temperature: "));
 // if (t>40) {
-//     alert("Its too hot outside");
-// }
+    //     alert("Its too hot outside");
+    // }
 // else if(t>30) {
-//     alert("weather is normal");
+    //     alert("weather is normal");
 // }
 // else if(t>20){
-//     alert("weather is cool");
-    
+    //     alert("weather is cool");
+        
 // }
 // else if(t>10) {
-//     alert("OMG weather is very cool")   
+    //     alert("OMG weather is very cool")   
+    // }
+    // else{
+        //     alert("Invalid entry")
+        // }
+                
+                
+// chapter 9-11 task 11
+// var num1=Number(prompt("Enter first number: "));
+// var num2=Number(prompt("Enter second number: "));
+// var opts=prompt("( +,-,*,/ )");
+// var total;
+// if (opts==="+") {
+    //     total=num1+num2;
+    //     alert(total);
+    // }
+    // else if (opts==="-"){
+        //     total=num1-num2;
+//     alert(total);
+    
+// }
+// else if (opts==="*"){
+//     total=num1*num2;
+//     alert(total);
+    
+// }
+// else if (opts==="/"){
+//     total=num1/num2;
+//     alert(total);
+    
 // }
 // else{
-//     alert("Invalid entry")
+//     alert("Invalid Entry")
 // }
-
-
-
 
 
 
