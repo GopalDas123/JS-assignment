@@ -15,7 +15,6 @@
 // alert("Welcome to JS Land..");
 // alert("Happy Coding");
 
-
 // Chapter 2 --Task 1
 
 // var username="Gopal Das";
@@ -60,7 +59,6 @@
 // Chapter 2 --Task 9
 // var a="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 // alert(a);
-
 
 // Chapter 3 --Task 1
 
@@ -127,17 +125,12 @@
 // var no=Number(prompt("Enter any number: "));
 // document.write("<br> Table of "+ no );
 // for (let i = 1; i <= 10; i++) {
-//     document.write(" <br>"+i+" x "+no+" = "+i*no);   
+//     document.write(" <br>"+i+" x "+no+" = "+i*no);
 // }
-
-
 
 // Chapter 5 --Task 6
 // var c=10;
 // var f=(c*9/5)+32;
-
-
-
 
 // Chapter 5 --Task 7
 // var shirt =800;
@@ -149,8 +142,6 @@
 // var total=s+p;
 // document.write("1 Shirt's price is 800pkr <br> The price of "+shirt_count+ "shirt(s) is "+ s+"pkr."+ "<br> Pent's price is 600pkr.<br>"+"The price of "+pent_count+ "pent(s) is "+p+".<br>Your Total Bill Is: "+total+".");
 
-
-
 // Chapter 5 --Task 8
 
 // var t_marks=850;
@@ -160,8 +151,6 @@
 // var calc1=(std2/850)*100;
 // document.write("Total marks are "+t_marks+".<br>Student 1 got " +std1+ "Marks. His % is "+calc+".<br>");
 // document.write("Total marks are "+t_marks+".<br>Student 2 got " +std2+ "Marks. His % is "+calc1);
-
-
 
 // Chapter 5 --task 9
 
@@ -174,12 +163,10 @@
 // var c=a+b;
 // document.write("Total Currency in PKR: "+c)
 
-
 // Chapter 5 --Task 10
 // var a=30;
 // var t=(a+5)*10;
 // alert(t/2);
-
 
 // Chapter 5 --Task 11
 // var c_year=2020;
@@ -189,13 +176,11 @@
 // age=c_year-b_year;
 // document.write("Current year: "+c_year+".<br>Birth Year: "+b_year+".<br>Your Age is approx: "+age+".");
 
-
 // Chapter 5 --Task 12
 // var r=Number(prompt("Enter the radius: "));
 // var cc=2*3.142*r;
 // var area=3.142*r*r;
 // document.write("THE GEOMETRIZER"+"<br>The circumference is: "+cc+".<br>The area is: "+area+".");
-
 
 //Chapter 5 --Task 13
 
@@ -206,7 +191,145 @@
 // var total=2*365*60
 // document.write("Favourite Snack: "+fs+".<br>Current Age: "+cr_age+".<br>Esitamted Age: "+exp_age+".<br>Snacks per day: "+ttl_fs+".<br>You will need "+total+" "+fs+" to last you untill the ripe old age of "+exp_age);
 
+//Chapter 6-9 --Task 1
 
-//Chapter 6 --Task 1
+// var a=Number(prompt("Enter any number: "));
+// document.write("Result<br>The value of a is: "+a+"<br>----------------------------<br>");
+// a=++a;
+// document.write("The value of a is: "+a+"<br>Now the value of a is:"+a+"<br> ");
+// a=a++;
+// document.write("The value of a is: "+a+"<br>Now the value of a is:"+a+"<br> ");
+// a=--a;
+// document.write("The value of a is: "+a+"<br>Now the value of a is:"+a+"<br> ");
+// a=a--;
+// document.write("The value of a is: "+a+"<br>Now the value of a is:"+a+"<br> ");
+
+// //Chapter 6-9 --Task 2
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// document.write(result);
+//to be continued
+
+//Chapter 6-9 --Task 3
+// var name=prompt("Enter Your Name: ");
+// alert("Hello "+name+"\nWelcome to our site")
+
+//Chapter 6-9 --Task 5
+// var no=Number(prompt("Enter any number: "));
+// if (1) {
+//     document.write("<br> Table of "+ no );
+//     for (let i = 1; i <= 10; i++) {
+//         document.write(" <br>"+i+" x "+no+" = "+i*no);
+//     }
+// }
+// else if(no===NaN || no==undefined || no==0){
+//     var no=5;
+//     for (let i = 1; i <= 10; i++) {
+//         document.write(" <br>"+i+" x "+no+" = "+i*no);
+//     }
+// }
+// else{
+
+// }
+
+//Chapter 6-9 --Task 6
+
+// This code's html is commented in index.html
+
+// var sub1=prompt("Enter Subject: ")
+// var sub2=prompt("Enter Subject: ")
+// var sub3=prompt("Enter Subject: ")
+// var marks1=Number(prompt("Enter Marks Obtained In "+sub1+": "));
+// var marks2=Number(prompt("Enter Marks Obtained In "+sub2+": "));
+// var marks3=Number(prompt("Enter Marks Obtained In "+sub3+": "));
+// document.getElementById("sub1").innerHTML=sub1;
+// document.getElementById("sub2").innerHTML=sub2;
+// document.getElementById("sub3").innerHTML=sub3;
+// document.getElementById("marks_1").innerHTML=marks1;
+// document.getElementById("marks_2").innerHTML=marks2;
+// document.getElementById("marks_3").innerHTML=marks3;
+// document.getElementById("per1").innerHTML=marks1+"%";
+// document.getElementById("per2").innerHTML=marks2+"%";
+// document.getElementById("per3").innerHTML=marks3+"%";
+// var total=300;
+// var total_o=marks1+marks2+marks3;
+// var prc=(total_o/total)*100;
+// document.getElementById("pp").innerHTML=prc;
+// document.getElementById("ttt").innerHTML=total;
+// document.getElementById("tt").innerHTML=total_o;
+
+//Chapter 9-11 --Task 1
+
+// var city=prompt("Enter your city: ");
+//  if (city==="Karachi" || city==="karachi") {
+//         alert("Welcome to the city of lights");
+
+//     }
+// else{
+//         alert("Welcome to the "+city);
+
+//     }
+
+//Chapter 9-11 --Task 2
+
+// var gender=prompt("Enter your gender m/f: ")
+// if (gender==="m" || gender==="M") {
+    //     alert("Good Morning Sir")
+    // }
+    // else if(gender==="f" || gender==="F"){
+        //     alert("Good Morning Ma'am")
+        // }
+        // else {
+            //     alert("Invalid entry.")
+            
+            // }
+            
 
 
+//Chapter 9-11 --Task 3
+// var message=prompt("Enter color r/y/g: ");
+// if (message==="r" || message==="R") {
+//     alert("Must Stop");
+// } 
+// else if (message==="y" || message==="Y") {
+    //     alert("Ready to move");
+    
+    // }
+    // else if (message==="g" || message==="G") {
+        //     alert("Move now");
+        
+        // }
+        // else{
+            //     alert("Invalid Entry");
+// }
+
+
+
+//Chapter 9-11 --Task 4
+
+// var fuel=Number(prompt("Enter remaining fuel: "));
+// if (fuel<0.25){
+//     alert("Please refill the fuel in your car")
+    
+// } else {
+//     alert("You have enough fuel");
+    
+// }
+
+
+
+//Chapter 9-11 --Task 5
+
+
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+// is true
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+
+// not true
