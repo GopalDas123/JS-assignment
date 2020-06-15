@@ -490,6 +490,125 @@
 // }
 
 
+//Chapter 12-13 task 1
+
+
+// var strings = 'Gopal';
+// var i=4;
+// var character='';
+// while (i <= strings.length){
+//     character = strings.charAt(i);
+//     if (!isNaN(character * 1)){
+//         alert('character is numeric');
+//     }else{
+//         if (character == character.toUpperCase()) {
+//             alert ('upper case true');
+//         }
+//         if (character == character.toLowerCase()){
+//             alert ('lower case true');
+//         }
+//     }
+//     i++;
+// }
+
+//Chapter 12-13 task 2
+
+
+// var a=Number(prompt("First number: "))
+// var b=Number(prompt("Second number: "))
+
+// if (a>b){
+//     alert(a+" is larger then "+b)
+// }
+// else{
+//     alert(b+" is larger then "+a)
+// }
+
+
+//Chapter 12-13 task 3
+
+
+// var no=Number(prompt("Enter any number: "))
+// if (no==0){
+//     alert("Number is equal to 0")
+// }
+// else if (no>0){
+//     alert("Number is positive");
+// }
+// else if (no<0){
+//     alert("Number is negative");
+// }
+// else{
+//     alert("Invalid Number")
+// }
+
+
+
+//Chapter 12-13 task 4
+
+// var one=prompt("Enter one letter: ")
+// if (one==="a"||one==="e"||one==="i"||one==="o"||one==="u"||one==="A"||one==="E"||one==="I"||one==="O"||one==="U"){
+//     alert(true);
+// }
+// else{
+//     alert(false)
+// }
+
+
+//Chapter 12-13 task 5
+
+
+// var pass="GopalDas";
+// var ask=prompt("Enter Password: ");
+// if (ask===pass){
+//     alert("Password Matches!")
+// }
+// else{
+//     alert("Incorrect Password")
+// }
+
+
+
+//Chapter 12-13 task 6
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else{
+//     greeting = "Good evening";
+// }
+
+
+//Chapter 12-13 task 7
+
+// var timm=Number(prompt("Enter time: "));
+// if(timm>=0000 && timm<1200){
+//     alert("Good Morning")
+// }
+// else if (timm>=1200 && timm<1700){
+//     alert("Good after noon")
+// }
+// else if (timm>=1700 && timm<2100){
+//     alert("Good evening")
+// }
+// else if (timm>=2100 && timm<2359){
+//     alert("Good Night")
+// }
+// else{
+//     alert("Invalid Entry")
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 
