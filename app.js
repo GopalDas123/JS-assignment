@@ -274,62 +274,197 @@
 
 // var gender=prompt("Enter your gender m/f: ")
 // if (gender==="m" || gender==="M") {
-    //     alert("Good Morning Sir")
-    // }
-    // else if(gender==="f" || gender==="F"){
-        //     alert("Good Morning Ma'am")
-        // }
-        // else {
-            //     alert("Invalid entry.")
-            
-            // }
-            
+//     alert("Good Morning Sir")
+// }
+// else if(gender==="f" || gender==="F"){
+//     alert("Good Morning Ma'am")
+// }
+// else {
+//     alert("Invalid entry.")
 
+// }
 
 //Chapter 9-11 --Task 3
 // var message=prompt("Enter color r/y/g: ");
 // if (message==="r" || message==="R") {
 //     alert("Must Stop");
-// } 
-// else if (message==="y" || message==="Y") {
-    //     alert("Ready to move");
-    
-    // }
-    // else if (message==="g" || message==="G") {
-        //     alert("Move now");
-        
-        // }
-        // else{
-            //     alert("Invalid Entry");
 // }
+// else if (message==="y" || message==="Y") {
+//     alert("Ready to move");
 
+// }
+// else if (message==="g" || message==="G") {
+//     alert("Move now");
 
+// }
+// else{
+//     alert("Invalid Entry");
+// }
 
 //Chapter 9-11 --Task 4
 
 // var fuel=Number(prompt("Enter remaining fuel: "));
 // if (fuel<0.25){
 //     alert("Please refill the fuel in your car")
-    
+
 // } else {
 //     alert("You have enough fuel");
-    
+
 // }
-
-
 
 //Chapter 9-11 --Task 5
 
-
+//a
 // var a = 4;
 // if (++a === 5){
 // alert("given condition for variable a is true");
 // }
-
 // is true
+
+//b
 // var b = 82;
 // if (b++ === 83){
 // alert("given condition for variable b is true");
 // }
 
 // not true
+
+//c
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+// condition 2 & 4 is true
+
+//d
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+// The cost equals
+
+//e
+// if (true){
+//     alert("True");
+//     }
+//     if (false){
+//     alert("False");
+//     }
+
+// true
+
+//f
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+
+// car is smaller than cat
+
+//Chapter 9-11 --Task 6
+
+// var sub1=Number(prompt("Enter marks of subject 1: "));
+// var sub2=Number(prompt("Enter marks of subject 2: "));
+// var sub3=Number(prompt("Enter marks of subject 3: "));
+
+// var total=sub1+sub2+sub3;
+// var tm=300;
+// var perc=(total/tm)*100;
+// var grade="";
+// var remarks="";
+
+// if (perc>=80) {
+//     grade="A-1";
+//     remarks="Excellent";
+// } else if (perc>=70) {
+//     grade="A";
+//     remarks="Good";
+
+// }
+// else if (perc>=60) {
+//     grade="B";
+//     remarks="You Need To Improve";
+
+// }
+// else if (perc<60) {
+//     grade="Fail";
+//     remarks="Sorry";
+
+// }
+// else{
+//     alert("Invalid Entry.");
+// }
+// document.write("Mark Sheet <br>Total Makrs: "+tm+"<br>Marks Obtained: "+total+"<br>Percentage: "+perc+"<br>Grade: "+grade+"<br>Remarks: "+remarks)
+
+//Chapter 9-11 --Task 7
+
+// var s_no = 2;
+// var tryy = Number(prompt("Enter secret number: "));
+// if (tryy === 2) {
+//   alert("Binggoo! Correct");
+// } else if (tryy === s_no+1) {
+//   alert("Close enough to correct answer");
+// } else {
+//   alert("Sorry Wrong Answer");
+// }
+
+// chapter 9-11 task 8
+// var number = Number(prompt("Enter any number: "));
+// if (number % 3 === 0) {
+    //   alert("Great! Number is divisble by 3.");
+    // }
+    // else{
+        //     alert("Sorry! Number is not divisible by 3.")
+        // }
+        
+        
+// chapter 9-11 task 9
+// var number = Number(prompt("Enter any number: "));
+// if (number % 2 === 0) {
+    //   alert("Number is Even.");
+    // }
+    // else{
+        //     alert("Number is odd.")
+        // }
+
+
+// chapter 9-11 task 9
+
+// var t=Number(prompt("Enter temperature: "));
+// if (t>40) {
+//     alert("Its too hot outside");
+// }
+// else if(t>30) {
+//     alert("weather is normal");
+// }
+// else if(t>20){
+//     alert("weather is cool");
+    
+// }
+// else if(t>10) {
+//     alert("OMG weather is very cool")   
+// }
+// else{
+//     alert("Invalid entry")
+// }
+
+
+
+
+
+
+
+
+
