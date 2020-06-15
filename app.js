@@ -130,7 +130,21 @@
 //     document.write(" <br>"+i+" x "+no+" = "+i*no);   
 // }
 
+
+
 // Chapter 5 --Task 6
 // var c=10;
 // var f=(c*9/5)+32;
 
+
+
+
+// Chapter 5 --Task 7
+// var shirt =800;
+// var pent =600;
+// var shirt_count =Number(prompt("How Many shirts do you want?: "));
+// var pent_count =Number(prompt("How Many pents you want?: "));
+// var s=shirt_count*shirt;
+// var p=pent_count*pent;
+// var total=s+p;
+// document.write("1 Shirt's price is 800pkr <br> The price of "+shirt_count+ "shirt(s) is "+ s+"pkr."+ "<br> Pent's price is 600pkr.<br>"+"The price of "+pent_count+ "pent(s) is "+p+".<br>Your Total Bill Is: "+total+".");
